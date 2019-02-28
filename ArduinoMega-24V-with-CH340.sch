@@ -43,7 +43,7 @@ F 6 "490-PJ-202A" H 10650 2300 60  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L1
+L ArduinoMega-24V-with-CH340-rescue:L_Small-device L1
 U 1 1 5A8E85DC
 P 13850 2200
 F 0 "L1" V 13800 2150 50  0000 L CNN
@@ -57,7 +57,7 @@ F 6 "81-1255AY-680MP3" V 13850 2200 60  0001 C CNN "Mouser PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Zener_Small D1
+L ArduinoMega-24V-with-CH340-rescue:D_Zener_Small-device D1
 U 1 1 5A8E8681
 P 13600 2550
 F 0 "D1" H 13600 2640 50  0000 C CNN
@@ -71,7 +71,7 @@ F 6 "621-B260A-F" H 13600 2550 60  0001 C CNN "Mouser PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:CP_Small C1
+L ArduinoMega-24V-with-CH340-rescue:CP_Small-device C1
 U 1 1 5A8E8724
 P 11750 2450
 F 0 "C1" H 11760 2520 50  0000 L CNN
@@ -82,7 +82,7 @@ F 3 "" H 11750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR01
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR01
 U 1 1 5A8E87ED
 P 14900 2150
 F 0 "#PWR01" H 14900 2000 50  0001 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 14900 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR02
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR02
 U 1 1 5A8E8824
 P 10950 2650
 F 0 "#PWR02" H 10950 2400 50  0001 C CNN
@@ -104,7 +104,7 @@ F 3 "" H 10950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR03
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR03
 U 1 1 5A8E89C4
 P 11750 2650
 F 0 "#PWR03" H 11750 2400 50  0001 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 11750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR04
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR04
 U 1 1 5A8E8A7E
 P 12100 2650
 F 0 "#PWR04" H 12100 2400 50  0001 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 12100 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR05
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR05
 U 1 1 5A8E8AD3
 P 12350 2650
 F 0 "#PWR05" H 12350 2400 50  0001 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 12350 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR06
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR06
 U 1 1 5A8E8B7C
 P 12900 2650
 F 0 "#PWR06" H 12900 2400 50  0001 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 12900 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR07
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR07
 U 1 1 5A8E8CD5
 P 13600 2650
 F 0 "#PWR07" H 13600 2400 50  0001 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 13600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C9
+L ArduinoMega-24V-with-CH340-rescue:CP_Small-device C9
 U 1 1 5A8E8ED2
 P 14650 2450
 F 0 "C9" H 14660 2520 50  0000 L CNN
@@ -170,7 +170,7 @@ F 3 "" H 14650 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR08
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR08
 U 1 1 5A8E8F4B
 P 14650 2650
 F 0 "#PWR08" H 14650 2400 50  0001 C CNN
@@ -197,7 +197,7 @@ $EndComp
 Text Label 3650 2700 0    60   ~ 0
 RESET
 $Comp
-L device:C_Small C4
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C4
 U 1 1 5A8F058B
 P 2500 3600
 F 0 "C4" H 2510 3670 50  0000 L CNN
@@ -208,7 +208,7 @@ F 3 "" H 2500 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR09
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR09
 U 1 1 5A8F09AD
 P 3900 4500
 F 0 "#PWR09" H 3900 4250 50  0001 C CNN
@@ -219,7 +219,7 @@ F 3 "" H 3900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR010
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR010
 U 1 1 5A8F0D7D
 P 3550 3500
 F 0 "#PWR010" H 3550 3350 50  0001 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 3550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR011
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR011
 U 1 1 5A8F0F16
 P 3250 3800
 F 0 "#PWR011" H 3250 3550 50  0001 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 3250 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR012
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR012
 U 1 1 5A8F100E
 P 2500 3750
 F 0 "#PWR012" H 2500 3500 50  0001 C CNN
@@ -329,7 +329,7 @@ F 3 "" H 11750 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR014
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR014
 U 1 1 5A8F56A1
 P 1400 7700
 F 0 "#PWR014" H 1400 7450 50  0001 C CNN
@@ -351,7 +351,7 @@ F 3 "" H 1150 6850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR016
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR016
 U 1 1 5A8F5A6A
 P 1400 6850
 F 0 "#PWR016" H 1400 6700 50  0001 C CNN
@@ -362,7 +362,7 @@ F 3 "" H 1400 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR017
+L ArduinoMega-24V-with-CH340-rescue:+3.3V-power1 #PWR017
 U 1 1 5A8F5A9B
 P 1600 6850
 F 0 "#PWR017" H 1600 6700 50  0001 C CNN
@@ -384,7 +384,7 @@ F 3 "" H 1900 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR018
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR018
 U 1 1 5A8F5F2D
 P 2150 8400
 F 0 "#PWR018" H 2150 8150 50  0001 C CNN
@@ -577,7 +577,7 @@ PH6
 Text Label 7475 4100 0    60   ~ 0
 PH5
 $Comp
-L linear:LMV358 U1
+L ArduinoMega-24V-with-CH340-rescue:LMV358-linear U1
 U 2 1 5A8FDFC4
 P 6300 1750
 F 0 "U1" H 6300 1950 50  0000 L CNN
@@ -591,7 +591,7 @@ F 6 "595-LMV358IDGKR" H 6300 1750 60  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LMV358 U1
+L ArduinoMega-24V-with-CH340-rescue:LMV358-linear U1
 U 1 1 5A8FE057
 P 12350 3700
 F 0 "U1" H 12350 3900 50  0000 L CNN
@@ -602,7 +602,7 @@ F 3 "" H 12350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR019
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR019
 U 1 1 5A8FE3D3
 P 6200 2050
 F 0 "#PWR019" H 6200 1800 50  0001 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 6200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR020
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR020
 U 1 1 5A8FE4D8
 P 6200 1450
 F 0 "#PWR020" H 6200 1300 50  0001 C CNN
@@ -624,7 +624,7 @@ F 3 "" H 6200 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L ArduinoMega-24V-with-CH340-rescue:R-device R8
 U 1 1 5A8FEC69
 P 7100 1750
 F 0 "R8" V 7180 1750 50  0000 C CNN
@@ -649,7 +649,7 @@ F 6 "859-LTST-S220KSKT" H 7400 1750 60  0001 C CNN "Mouser PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR021
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR021
 U 1 1 5A8FEF22
 P 7650 1750
 F 0 "#PWR021" H 7650 1500 50  0001 C CNN
@@ -660,7 +660,7 @@ F 3 "" H 7650 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R7
+L ArduinoMega-24V-with-CH340-rescue:R-device R7
 U 1 1 5A8FF1CB
 P 7100 1350
 F 0 "R7" V 7180 1350 50  0000 C CNN
@@ -685,7 +685,7 @@ F 6 "859-LTST-C171GKT" H 7400 1350 60  0001 C CNN "Mouser PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR022
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR022
 U 1 1 5A8FF1D7
 P 7650 1350
 F 0 "#PWR022" H 7650 1100 50  0001 C CNN
@@ -696,7 +696,7 @@ F 3 "" H 7650 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:+5V #PWR023
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR023
 U 1 1 5A8FF238
 P 6750 1350
 F 0 "#PWR023" H 6750 1200 50  0001 C CNN
@@ -707,7 +707,7 @@ F 3 "" H 6750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L ArduinoMega-24V-with-CH340-rescue:R-device R4
 U 1 1 5A8FF778
 P 3200 1500
 F 0 "R4" V 3280 1500 50  0000 C CNN
@@ -718,7 +718,7 @@ F 3 "" H 3200 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR024
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR024
 U 1 1 5A8FFA22
 P 3200 1950
 F 0 "#PWR024" H 3200 1700 50  0001 C CNN
@@ -729,7 +729,7 @@ F 3 "" H 3200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR025
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR025
 U 1 1 5A8FFA8A
 P 3200 1350
 F 0 "#PWR025" H 3200 1200 50  0001 C CNN
@@ -742,7 +742,7 @@ $EndComp
 Text Label 2900 1700 0    60   ~ 0
 RESET
 $Comp
-L device:D D2
+L ArduinoMega-24V-with-CH340-rescue:D-device D2
 U 1 1 5A8FFCAD
 P 3400 1500
 F 0 "D2" H 3400 1600 50  0000 C CNN
@@ -767,7 +767,7 @@ F 6 "649-67996-406HLF" H 1800 1600 60  0001 C CNN "Mouser PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR026
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR026
 U 1 1 5A900ABA
 P 1350 1700
 F 0 "#PWR026" H 1350 1450 50  0001 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 1350 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR027
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR027
 U 1 1 5A900B6A
 P 1350 1500
 F 0 "#PWR027" H 1350 1350 50  0001 C CNN
@@ -797,7 +797,7 @@ RESET
 Text Label 1350 1600 0    60   ~ 0
 PB2
 $Comp
-L power1:+5V #PWR028
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR028
 U 1 1 5A90177D
 P 4850 1400
 F 0 "#PWR028" H 4850 1250 50  0001 C CNN
@@ -812,7 +812,7 @@ SCL
 Text Label 4400 1950 0    50   ~ 0
 SDA
 $Comp
-L device:R R1
+L ArduinoMega-24V-with-CH340-rescue:R-device R1
 U 1 1 5A902A50
 P 11050 3400
 F 0 "R1" V 11130 3400 50  0000 C CNN
@@ -834,7 +834,7 @@ F 3 "" H 11050 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR030
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR030
 U 1 1 5A903541
 P 12250 4000
 F 0 "#PWR030" H 12250 3750 50  0001 C CNN
@@ -845,7 +845,7 @@ F 3 "" H 12250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR031
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR031
 U 1 1 5A90364F
 P 12250 3300
 F 0 "#PWR031" H 12250 3150 50  0001 C CNN
@@ -856,7 +856,7 @@ F 3 "" H 12250 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR032
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR032
 U 1 1 5A9041A3
 P 11200 3950
 F 0 "#PWR032" H 11200 3700 50  0001 C CNN
@@ -886,7 +886,7 @@ D+
 Text Label 13500 6750 0    60   ~ 0
 D-
 $Comp
-L device:Crystal_Small Y2
+L ArduinoMega-24V-with-CH340-rescue:Crystal_Small-device Y2
 U 1 1 5A906E73
 P 12950 6450
 F 0 "Y2" H 13050 6500 50  0000 C CNN
@@ -900,7 +900,7 @@ F 6 "815-ABLS-12.0M-T" H 12950 6450 60  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C11
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C11
 U 1 1 5A906FF3
 P 12650 6650
 F 0 "C11" H 12450 6650 50  0000 L CNN
@@ -911,7 +911,7 @@ F 3 "" H 12650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR033
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR033
 U 1 1 5A9076E9
 P 12950 6950
 F 0 "#PWR033" H 12950 6700 50  0001 C CNN
@@ -922,7 +922,7 @@ F 3 "" H 12950 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR034
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR034
 U 1 1 5A9080C7
 P 13650 6100
 F 0 "#PWR034" H 13650 5850 50  0001 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 13650 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C15
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C15
 U 1 1 5A9081EA
 P 13300 5950
 F 0 "C15" V 13450 5900 50  0000 L CNN
@@ -969,7 +969,7 @@ F 6 "530-C1S1.5" H 11350 6350 60  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C14
+L ArduinoMega-24V-with-CH340-rescue:CP_Small-device C14
 U 1 1 5A9094A6
 P 11700 6550
 F 0 "C14" H 11710 6620 50  0000 L CNN
@@ -980,7 +980,7 @@ F 3 "" H 11700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR035
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR035
 U 1 1 5A9098BD
 P 11700 6850
 F 0 "#PWR035" H 11700 6600 50  0001 C CNN
@@ -991,7 +991,7 @@ F 3 "" H 11700 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L ArduinoMega-24V-with-CH340-rescue:R-device R5
 U 1 1 5A8EDC1E
 P 4650 1650
 F 0 "R5" V 4730 1650 50  0000 C CNN
@@ -1002,7 +1002,7 @@ F 3 "" H 4650 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R6
+L ArduinoMega-24V-with-CH340-rescue:R-device R6
 U 1 1 5A8EDDF0
 P 4850 1650
 F 0 "R6" V 4930 1650 50  0000 C CNN
@@ -1013,7 +1013,7 @@ F 3 "" H 4850 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R2
+L ArduinoMega-24V-with-CH340-rescue:R-device R2
 U 1 1 5A8EE220
 P 11050 3800
 F 0 "R2" V 11130 3800 50  0000 C CNN
@@ -1024,7 +1024,7 @@ F 3 "" H 11050 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C_Small C2
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C2
 U 1 1 5A8F4B97
 P 2950 3650
 F 0 "C2" H 2960 3720 50  0000 L CNN
@@ -1035,7 +1035,7 @@ F 3 "" H 2950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C6
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C6
 U 1 1 5A8F4C52
 P 3250 3650
 F 0 "C6" H 3260 3720 50  0000 L CNN
@@ -1046,7 +1046,7 @@ F 3 "" H 3250 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C7
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C7
 U 1 1 5A8F4D0A
 P 3550 3650
 F 0 "C7" H 3560 3720 50  0000 L CNN
@@ -1057,7 +1057,7 @@ F 3 "" H 3550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C16
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C16
 U 1 1 5A8F5915
 P 13200 6650
 F 0 "C16" H 13210 6720 50  0000 L CNN
@@ -1072,7 +1072,7 @@ PE1
 Text Label 15500 5850 0    60   ~ 0
 PE0
 $Comp
-L device:C_Small C5
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C5
 U 1 1 5A8F5FB1
 P 3200 1850
 F 0 "C5" H 3210 1920 50  0000 L CNN
@@ -1083,7 +1083,7 @@ F 3 "" H 3200 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C10
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C10
 U 1 1 5A8F869D
 P 11350 3800
 F 0 "C10" H 11360 3870 50  0000 L CNN
@@ -1098,7 +1098,7 @@ D-
 Text Label 11050 6550 0    60   ~ 0
 D+
 $Comp
-L power1:GND #PWR036
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR036
 U 1 1 5A8FF99A
 P 11050 6750
 F 0 "#PWR036" H 11050 6500 50  0001 C CNN
@@ -1113,7 +1113,7 @@ Released under the Creative Commons Attribution Share-Alike\nLicense. https://cr
 Text Notes 11700 1950 0    150  ~ 30
 Power supply circuit
 $Comp
-L device:C_Small C12
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C12
 U 1 1 5A901F7C
 P 12650 3300
 F 0 "C12" V 12500 3350 50  0000 L CNN
@@ -1127,7 +1127,7 @@ F 6 "80-C0603C104K8R" H 12650 3300 60  0001 C CNN "Mouser PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:GND #PWR037
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR037
 U 1 1 5A902880
 P 12750 3300
 F 0 "#PWR037" H 12750 3050 50  0001 C CNN
@@ -1154,7 +1154,7 @@ F 6 "571-5-535541-6" H 2000 7300 60  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C17
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C17
 U 1 1 5A90962D
 P 15200 6200
 F 0 "C17" V 15100 6150 50  0000 L CNN
@@ -1217,7 +1217,7 @@ USBVCC
 NoConn ~ 14650 6300
 NoConn ~ 14650 6400
 $Comp
-L power1:+5V #PWR038
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR038
 U 1 1 5A952564
 P 13650 5650
 F 0 "#PWR038" H 13650 5500 50  0001 C CNN
@@ -1229,7 +1229,7 @@ F 3 "" H 13650 5650 50  0001 C CNN
 $EndComp
 NoConn ~ 10950 6650
 $Comp
-L device:C_Small C3
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C3
 U 1 1 5A9557C2
 P 12100 2450
 F 0 "C3" H 12110 2520 50  0000 L CNN
@@ -1735,7 +1735,7 @@ NoConn ~ 1800 6950
 Wire Wire Line
 	1150 7650 1150 6850
 $Comp
-L power1:+3V3 #PWR039
+L ArduinoMega-24V-with-CH340-rescue:+3V3-power1 #PWR039
 U 1 1 5A968F02
 P 11650 3300
 F 0 "#PWR039" H 11650 3150 50  0001 C CNN
@@ -1750,7 +1750,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 4000 13250 3900
 $Comp
-L power1:+5V #PWR040
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR040
 U 1 1 5A96B57C
 P 13250 3400
 F 0 "#PWR040" H 13250 3250 50  0001 C CNN
@@ -1763,7 +1763,7 @@ $EndComp
 Wire Wire Line
 	13250 3400 13250 3500
 $Comp
-L device:Q_PMOS_GDS Q1
+L ArduinoMega-24V-with-CH340-rescue:Q_PMOS_GDS-device Q1
 U 1 1 5A904CE9
 P 13150 3700
 F 0 "Q1" V 13350 3700 50  0000 L CNN
@@ -1799,7 +1799,7 @@ F 3 "" V 15250 5600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R10
+L ArduinoMega-24V-with-CH340-rescue:R_Small-device R10
 U 1 1 5A96F15A
 P 14975 5250
 F 0 "R10" H 15005 5270 50  0000 L CNN
@@ -1810,7 +1810,7 @@ F 3 "" H 14975 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R11
+L ArduinoMega-24V-with-CH340-rescue:R_Small-device R11
 U 1 1 5A96F249
 P 15250 5250
 F 0 "R11" H 15280 5270 50  0000 L CNN
@@ -1821,7 +1821,7 @@ F 3 "" H 15250 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR041
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR041
 U 1 1 5A96F2EC
 P 14975 5050
 F 0 "#PWR041" H 14975 4900 50  0001 C CNN
@@ -1832,7 +1832,7 @@ F 3 "" H 14975 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR042
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR042
 U 1 1 5A96F36A
 P 15250 5050
 F 0 "#PWR042" H 15250 4900 50  0001 C CNN
@@ -1843,7 +1843,7 @@ F 3 "" H 15250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R3
+L ArduinoMega-24V-with-CH340-rescue:R_Small-device R3
 U 1 1 5A96F6A9
 P 14800 5850
 F 0 "R3" V 14750 5675 50  0000 L CNN
@@ -1854,7 +1854,7 @@ F 3 "" H 14800 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R9
+L ArduinoMega-24V-with-CH340-rescue:R_Small-device R9
 U 1 1 5A96F772
 P 14800 5950
 F 0 "R9" V 14750 5775 50  0000 L CNN
@@ -1879,7 +1879,7 @@ Wire Wire Line
 Wire Wire Line
 	15250 5700 15250 5850
 $Comp
-L device:D_Small D7
+L ArduinoMega-24V-with-CH340-rescue:D_Small-device D7
 U 1 1 5A978F37
 P 11250 2200
 F 0 "D7" H 11200 2125 50  0000 L CNN
@@ -1892,7 +1892,7 @@ $EndComp
 Wire Wire Line
 	10950 2200 11150 2200
 $Comp
-L device:C_Small C18
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C18
 U 1 1 5A9818DB
 P 14900 2450
 F 0 "C18" H 14910 2520 50  0000 L CNN
@@ -1905,7 +1905,7 @@ $EndComp
 Wire Wire Line
 	14900 2150 14900 2200
 $Comp
-L power1:GND #PWR043
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR043
 U 1 1 5A981D51
 P 14900 2650
 F 0 "#PWR043" H 14900 2400 50  0001 C CNN
@@ -1919,7 +1919,7 @@ Wire Wire Line
 	14900 2650 14900 2550
 Connection ~ 14900 2200
 $Comp
-L device:Crystal_Small Y1
+L ArduinoMega-24V-with-CH340-rescue:Crystal_Small-device Y1
 U 1 1 5A982858
 P 2900 2850
 F 0 "Y1" H 3000 2900 50  0000 C CNN
@@ -1933,7 +1933,7 @@ F 6 "815-ABLS-12.0M-T" H 2900 2850 60  0001 C CNN "Mouser PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C8
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C8
 U 1 1 5A98285E
 P 2700 2550
 F 0 "C8" V 2650 2400 50  0000 L CNN
@@ -1944,7 +1944,7 @@ F 3 "" H 2700 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:GND #PWR044
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR044
 U 1 1 5A982864
 P 2400 2850
 F 0 "#PWR044" H 2400 2600 50  0001 C CNN
@@ -1955,7 +1955,7 @@ F 3 "" H 2400 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C13
+L ArduinoMega-24V-with-CH340-rescue:C_Small-device C13
 U 1 1 5A98286A
 P 2700 3100
 F 0 "C13" V 2650 2900 50  0000 L CNN
@@ -2005,7 +2005,7 @@ F 6 "571-6-534206-8" H 1800 5400 60  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR045
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR045
 U 1 1 5BB3D1FA
 P 1350 6350
 F 0 "#PWR045" H 1350 6100 50  0001 C CNN
@@ -2016,7 +2016,7 @@ F 3 "" H 1350 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:+5V #PWR046
+L ArduinoMega-24V-with-CH340-rescue:+5V-power1 #PWR046
 U 1 1 5BB3D200
 P 1350 4400
 F 0 "#PWR046" H 1350 4250 50  0001 C CNN
@@ -2241,7 +2241,7 @@ F 3 "" H 10500 9350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR047
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR047
 U 1 1 5BBBC676
 P 13100 6100
 F 0 "#PWR047" H 13100 5850 50  0001 C CNN
@@ -2253,7 +2253,7 @@ F 3 "" H 13100 6100 50  0001 C CNN
 $EndComp
 Connection ~ 13400 5950
 $Comp
-L power1:+3V3 #PWR048
+L ArduinoMega-24V-with-CH340-rescue:+3V3-power1 #PWR048
 U 1 1 5BBBDF36
 P 13400 5650
 F 0 "#PWR048" H 13400 5500 50  0001 C CNN
@@ -2270,7 +2270,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 5950 13200 5950
 $Comp
-L power1:GND #PWR049
+L ArduinoMega-24V-with-CH340-rescue:GND-power1 #PWR049
 U 1 1 5BBCB046
 P 10600 7200
 F 0 "#PWR049" H 10600 6950 50  0001 C CNN

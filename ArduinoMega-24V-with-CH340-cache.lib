@@ -1,11 +1,56 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ArduinoMega-24V-with-CH340-rescue:ATMEGA2560-16AU-RESCUE-ArduinoMega-24V-with-CH340
+# ArduinoMega-24V-with-CH340-rescue_+3.3V-power1
 #
-DEF ArduinoMega-24V-with-CH340-rescue:ATMEGA2560-16AU-RESCUE-ArduinoMega-24V-with-CH340 IC 0 40 Y Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_+3.3V-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_+3.3V-power1" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_+3V3-power1
+#
+DEF ArduinoMega-24V-with-CH340-rescue_+3V3-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_+3V3-power1" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_+5V-power1
+#
+DEF ArduinoMega-24V-with-CH340-rescue_+5V-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_+5V-power1" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_ATMEGA2560-16AU-RESCUE-ArduinoMega-24V-with-CH340
+#
+DEF ArduinoMega-24V-with-CH340-rescue_ATMEGA2560-16AU-RESCUE-ArduinoMega-24V-with-CH340 IC 0 40 Y Y 1 F N
 F0 "IC" -1150 2800 50 H V L BNN
-F1 "ArduinoMega-24V-with-CH340-rescue:ATMEGA2560-16AU-RESCUE-ArduinoMega-24V-with-CH340" 600 -3500 50 H V L BNN
+F1 "ArduinoMega-24V-with-CH340-rescue_ATMEGA2560-16AU-RESCUE-ArduinoMega-24V-with-CH340" 600 -3500 50 H V L BNN
 F2 "TQFP100" 0 0 50 H V C CIN
 F3 "" -1150 2800 50 H V C CNN
 DRAW
@@ -113,11 +158,11 @@ X AGND 99 -1300 1700 150 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:BARREL_JACK
+# ArduinoMega-24V-with-CH340-rescue_BARREL_JACK
 #
-DEF ArduinoMega-24V-with-CH340-rescue:BARREL_JACK J 0 40 Y Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_BARREL_JACK J 0 40 Y Y 1 F N
 F0 "J" 0 195 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:BARREL_JACK" 0 -155 50 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_BARREL_JACK" 0 -155 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -134,11 +179,11 @@ X ~ 3 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:CH340G_USB_to_UART
+# ArduinoMega-24V-with-CH340-rescue_CH340G_USB_to_UART
 #
-DEF ArduinoMega-24V-with-CH340-rescue:CH340G_USB_to_UART U 0 40 Y Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CH340G_USB_to_UART U 0 40 Y Y 1 F N
 F0 "U" -200 -700 60 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:CH340G_USB_to_UART" 0 600 60 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CH340G_USB_to_UART" 0 600 60 H V C CNN
 F2 "" 85 1290 60 H V C CNN
 F3 "" 85 1290 60 H V C CNN
 DRAW
@@ -162,11 +207,11 @@ X CTS 9 450 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:CONN_01X04
+# ArduinoMega-24V-with-CH340-rescue_CONN_01X04
 #
-DEF ArduinoMega-24V-with-CH340-rescue:CONN_01X04 J 0 40 Y N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CONN_01X04 J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:CONN_01X04" 100 0 50 V V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CONN_01X04" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -188,11 +233,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:CONN_01X08
+# ArduinoMega-24V-with-CH340-rescue_CONN_01X08
 #
-DEF ArduinoMega-24V-with-CH340-rescue:CONN_01X08 J 0 40 Y N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CONN_01X08 J 0 40 Y N 1 F N
 F0 "J" 0 450 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:CONN_01X08" 100 0 50 V V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CONN_01X08" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -222,11 +267,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:CONN_01X10
+# ArduinoMega-24V-with-CH340-rescue_CONN_01X10
 #
-DEF ArduinoMega-24V-with-CH340-rescue:CONN_01X10 J 0 40 Y N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CONN_01X10 J 0 40 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:CONN_01X10" 100 0 50 V V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CONN_01X10" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -260,11 +305,11 @@ X P9 9 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:CONN_02X03
+# ArduinoMega-24V-with-CH340-rescue_CONN_02X03
 #
-DEF ArduinoMega-24V-with-CH340-rescue:CONN_02X03 J 0 1 Y N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CONN_02X03 J 0 1 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:CONN_02X03" 0 -200 50 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CONN_02X03" 0 -200 50 H V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -291,11 +336,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:CONN_02X18
+# ArduinoMega-24V-with-CH340-rescue_CONN_02X18
 #
-DEF ArduinoMega-24V-with-CH340-rescue:CONN_02X18 J 0 1 Y N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CONN_02X18 J 0 1 Y N 1 F N
 F0 "J" 0 950 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:CONN_02X18" 0 0 50 V V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CONN_02X18" 0 0 50 V V C CNN
 F2 "" 0 -1050 50 H I C CNN
 F3 "" 0 -1050 50 H I C CNN
 $FPLIST
@@ -381,11 +426,137 @@ X P9 9 -250 450 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:F_Small
+# ArduinoMega-24V-with-CH340-rescue_CP_Small-device
 #
-DEF ArduinoMega-24V-with-CH340-rescue:F_Small F 0 10 N N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_CP_Small-device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_CP_Small-device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_C_Small-device
+#
+DEF ArduinoMega-24V-with-CH340-rescue_C_Small-device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_C_Small-device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_Crystal_Small-device
+#
+DEF ArduinoMega-24V-with-CH340-rescue_Crystal_Small-device Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_Crystal_Small-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_D-device
+#
+DEF ArduinoMega-24V-with-CH340-rescue_D-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_D-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_D_Small-device
+#
+DEF ArduinoMega-24V-with-CH340-rescue_D_Small-device D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_D_Small-device" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_D_Zener_Small-device
+#
+DEF ArduinoMega-24V-with-CH340-rescue_D_Zener_Small-device D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_D_Zener_Small-device" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_F_Small
+#
+DEF ArduinoMega-24V-with-CH340-rescue_F_Small F 0 10 N N 1 F N
 F0 "F" -40 60 50 H V L CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:F_Small" -120 -60 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_F_Small" -120 -60 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -400,11 +571,80 @@ X ~ 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:Led_Small
+# ArduinoMega-24V-with-CH340-rescue_GND-power1
 #
-DEF ArduinoMega-24V-with-CH340-rescue:Led_Small D 0 10 N N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_GND-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_GND-power1" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_LMV358-linear
+#
+DEF ArduinoMega-24V-with-CH340-rescue_LMV358-linear U 0 20 Y Y 2 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_LMV358-linear" 0 -200 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*Pitch1.27mm*
+ DIP*W7.62mm*
+ TO*99*
+ OnSemi*Micro8*
+ TSSOP*3x3mm*Pitch0.65mm*
+ TSSOP*4.4x3mm*Pitch0.65mm*
+ MSOP*3x3mm*Pitch0.65mm*
+ SSOP*3.9x4.9mm*Pitch0.635mm*
+ LFCSP*2x2mm*Pitch0.5mm*
+ *SIP*
+ SOIC*5.3x6.2mm*Pitch1.27mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 4 -100 -300 150 U 50 50 0 1 W
+X V+ 8 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_L_Small-device
+#
+DEF ArduinoMega-24V-with-CH340-rescue_L_Small-device L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_L_Small-device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ArduinoMega-24V-with-CH340-rescue_Led_Small
+#
+DEF ArduinoMega-24V-with-CH340-rescue_Led_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:Led_Small" -175 -100 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_Led_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -421,11 +661,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:MIC4680-FIXED
+# ArduinoMega-24V-with-CH340-rescue_MIC4680-FIXED
 #
-DEF ArduinoMega-24V-with-CH340-rescue:MIC4680-FIXED U 0 40 Y Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_MIC4680-FIXED U 0 40 Y Y 1 F N
 F0 "U" 350 -150 60 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:MIC4680-FIXED" 0 250 60 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_MIC4680-FIXED" 0 250 60 H V C CNN
 F2 "" 0 -300 60 H I C CNN
 F3 "" 0 -300 60 H I C CNN
 DRAW
@@ -441,11 +681,11 @@ X GND 8 150 -200 100 U 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:MINI-USB
+# ArduinoMega-24V-with-CH340-rescue_MINI-USB
 #
-DEF ArduinoMega-24V-with-CH340-rescue:MINI-USB P 0 40 Y Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_MINI-USB P 0 40 Y Y 1 F N
 F0 "P" -100 -450 50 H V L BNN
-F1 "ArduinoMega-24V-with-CH340-rescue:MINI-USB" -200 600 50 H V L BNN
+F1 "ArduinoMega-24V-with-CH340-rescue_MINI-USB" -200 600 50 H V L BNN
 F2 "MINI USB" 0 550 50 H I C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -483,11 +723,11 @@ X ~ 6 150 -650 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:Mount
+# ArduinoMega-24V-with-CH340-rescue_Mount
 #
-DEF ArduinoMega-24V-with-CH340-rescue:Mount M 0 40 Y Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_Mount M 0 40 Y Y 1 F N
 F0 "M" 0 -175 60 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:Mount" 0 -300 60 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_Mount" 0 -300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -497,198 +737,11 @@ P 2 0 1 0 100 0 -100 0 N
 ENDDRAW
 ENDDEF
 #
-# ArduinoMega-24V-with-CH340-rescue:TS42031-160R
+# ArduinoMega-24V-with-CH340-rescue_Q_PMOS_GDS-device
 #
-DEF ArduinoMega-24V-with-CH340-rescue:TS42031-160R SW 0 40 Y Y 1 F N
-F0 "SW" 50 -250 50 H V C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:TS42031-160R" 0 400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -120 -100 10 0 1 0 N
-P 2 0 1 0 -150 -100 -130 -100 N
-P 2 0 1 0 -150 0 -150 -100 N
-P 2 0 1 0 -80 -150 -80 -170 N
-P 2 0 1 0 -80 -130 -80 -140 N
-P 2 0 1 0 0 -100 -130 -140 N
-P 2 0 1 0 0 0 0 -100 N
-P 5 0 1 0 -120 -170 -120 -190 -110 -190 -40 -190 -40 -170 N
-X ~ 1 100 -100 100 L 40 40 1 1 W
-X ~ 2 100 0 100 L 40 40 1 1 W
-X ~ 3 -250 -100 100 R 40 40 1 1 W
-X ~ 4 -250 0 100 R 40 40 1 1 W
-ENDDRAW
-ENDDEF
-#
-# ArduinoMega-24V-with-CH340-rescue:VIN
-#
-DEF ArduinoMega-24V-with-CH340-rescue:VIN #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ArduinoMega-24V-with-CH340-rescue:VIN" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VIN 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# device:CP_Small
-#
-DEF device:CP_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "device:CP_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-S -60 -12 60 -27 0 1 0 F
-S -60 27 60 12 0 1 0 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 73 D 50 50 1 1 P
-X ~ 2 0 -100 73 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:C_Small
-#
-DEF device:C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:Crystal_Small
-#
-DEF device:Crystal_Small Y 0 40 N N 1 F N
-F0 "Y" 0 100 50 H V C CNN
-F1 "device:Crystal_Small" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -30 -60 30 60 0 1 0 N
-P 2 0 1 15 -50 -30 -50 30 N
-P 2 0 1 15 50 -30 50 30 N
-X 1 1 -100 0 50 R 50 50 1 1 P
-X 2 2 100 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D
-#
-DEF device:D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_Small
-#
-DEF device:D_Small D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "device:D_Small" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_Zener_Small
-#
-DEF device:D_Zener_Small D 0 10 N N 1 F N
-F0 "D" 0 90 50 H V C CNN
-F1 "device:D_Zener_Small" 0 -90 50 H V C CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 30 0 -30 0 N
-P 3 0 1 0 -10 40 -30 40 -30 -40 N
-P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:L_Small
-#
-DEF device:L_Small L 0 10 N N 1 F N
-F0 "L" 30 40 50 H V L CNN
-F1 "device:L_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
-$ENDFPLIST
-DRAW
-A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
-A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
-A 0 20 20 -899 899 0 1 0 N 0 0 0 40
-A 0 60 20 -899 899 0 1 0 N 0 40 0 80
-X ~ 1 0 100 20 D 50 50 1 1 P
-X ~ 2 0 -100 20 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:Q_PMOS_GDS
-#
-DEF device:Q_PMOS_GDS Q 0 0 Y N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_Q_PMOS_GDS-device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device:Q_PMOS_GDS" 200 -50 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_Q_PMOS_GDS-device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -716,11 +769,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# ArduinoMega-24V-with-CH340-rescue_R-device
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -734,11 +787,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R_Small
+# ArduinoMega-24V-with-CH340-rescue_R_Small-device
 #
-DEF device:R_Small R 0 10 N N 1 F N
+DEF ArduinoMega-24V-with-CH340-rescue_R_Small-device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device:R_Small" 30 -40 50 H V L CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_R_Small-device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -751,96 +804,41 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# linear:LMV358
+# ArduinoMega-24V-with-CH340-rescue_TS42031-160R
 #
-DEF linear:LMV358 U 0 20 Y Y 2 F N
-F0 "U" 0 200 50 H V L CNN
-F1 "linear:LMV358" 0 -200 50 H V L CNN
+DEF ArduinoMega-24V-with-CH340-rescue_TS42031-160R SW 0 40 Y Y 1 F N
+F0 "SW" 50 -250 50 H V C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_TS42031-160R" 0 400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691
-$FPLIST
- SOIC*3.9x4.9mm*Pitch1.27mm*
- DIP*W7.62mm*
- TO*99*
- OnSemi*Micro8*
- TSSOP*3x3mm*Pitch0.65mm*
- TSSOP*4.4x3mm*Pitch0.65mm*
- MSOP*3x3mm*Pitch0.65mm*
- SSOP*3.9x4.9mm*Pitch0.635mm*
- LFCSP*2x2mm*Pitch0.5mm*
- *SIP*
- SOIC*5.3x6.2mm*Pitch1.27mm*
-$ENDFPLIST
 DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X V- 4 -100 -300 150 U 50 50 0 1 W
-X V+ 8 -100 300 150 D 50 50 0 1 W
-X ~ 1 300 0 100 L 50 50 1 1 O
-X - 2 -300 -100 100 R 50 50 1 1 I
-X + 3 -300 100 100 R 50 50 1 1 I
-X + 5 -300 100 100 R 50 50 2 1 I
-X - 6 -300 -100 100 R 50 50 2 1 I
-X ~ 7 300 0 100 L 50 50 2 1 O
+C -120 -100 10 0 1 0 N
+P 2 0 1 0 -150 -100 -130 -100 N
+P 2 0 1 0 -150 0 -150 -100 N
+P 2 0 1 0 -80 -150 -80 -170 N
+P 2 0 1 0 -80 -130 -80 -140 N
+P 2 0 1 0 0 -100 -130 -140 N
+P 2 0 1 0 0 0 0 -100 N
+P 5 0 1 0 -120 -170 -120 -190 -110 -190 -40 -190 -40 -170 N
+X ~ 1 100 -100 100 L 40 40 1 1 W
+X ~ 2 100 0 100 L 40 40 1 1 W
+X ~ 3 -250 -100 100 R 40 40 1 1 W
+X ~ 4 -250 0 100 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# power1:+3.3V
+# ArduinoMega-24V-with-CH340-rescue_VIN
 #
-DEF power1:+3.3V #PWR 0 0 Y Y 1 F P
+DEF ArduinoMega-24V-with-CH340-rescue_VIN #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1:+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "ArduinoMega-24V-with-CH340-rescue_VIN" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power1:+3V3
-#
-DEF power1:+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1:+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power1:+5V
-#
-DEF power1:+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1:+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power1:GND
-#
-DEF power1:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power1:GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
+X VIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
