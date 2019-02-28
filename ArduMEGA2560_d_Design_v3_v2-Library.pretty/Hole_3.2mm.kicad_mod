@@ -1,0 +1,9 @@
+(module Library:Hole_3.2mm (layer F.Cu) (tedit 5AA27C3B)
+  (fp_text reference J16 (at 0.0508 2.794) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.15)))
+  )
+  (fp_text value Mount (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 0.762 0.762) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0.254 -0.1016) (size 3.3 3.3) (drill 3.2) (layers *.Cu *.Mask))
+)
